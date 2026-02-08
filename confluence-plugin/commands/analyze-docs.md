@@ -6,7 +6,7 @@ Analyze PDF documents in a folder: extract text, identify metadata, generate exe
 
 Folder path: `$ARGUMENTS`
 
-If no argument is provided, default to `/Users/gquinn/documents/ai_and_reporting/new/`
+If no argument is provided, ask the user for the folder path.
 
 ## Steps
 
@@ -27,7 +27,7 @@ If no `_taxonomy.md` exists, that's fine -- infer everything from the document c
 **Do not read PDF files directly.** Use the extraction script with the source folder:
 
 ```bash
-python3 /Users/gquinn/Documents/projects/confluence/extract_pdf_text.py --source "$FOLDER"
+python3 extract_pdf_text.py --source "$FOLDER"
 ```
 
 This creates text files in `<folder>_text/` with extracted content and metadata.

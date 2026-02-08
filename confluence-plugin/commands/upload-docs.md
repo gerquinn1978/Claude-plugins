@@ -7,7 +7,7 @@ Process analyzed PDF documents, create Confluence pages with executive summaries
 Run `/analyze-docs` first to generate `_analysis.json` and `_analysis.md` in the source folder. This command consumes that output.
 
 ## Source Folder
-`/Users/gquinn/documents/ai_and_reporting/new/`
+Ask the user for the source folder path if not already known from the `/analyze-docs` step.
 
 ## Steps
 
@@ -127,12 +127,7 @@ For each level (category -> section -> space home):
 
 Move PDFs from the source folder to their permanent local storage location.
 
-**Current local folders:**
-- `/Users/gquinn/documents/ai_and_reporting/AI_Risk/` -- AI Risk documents
-- `/Users/gquinn/documents/ai_and_reporting/AI/` -- AI Implementation documents
-- `/Users/gquinn/documents/ai_and_reporting/Reporting/` -- Finance and Data & Analytics documents
-
-If documents belong to a new category, ask about creating a new local folder.
+Ask the user where to move the processed PDFs for permanent storage.
 
 **Clean up:** Delete `_analysis.json`, `_analysis.md`, and any remaining text extraction files from the source folder.
 
