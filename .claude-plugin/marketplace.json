@@ -1,0 +1,14 @@
+{
+  "name": "gerquinn1978-plugins",
+  "owner": {
+    "name": "gerquinn1978"
+  },
+  "plugins": [
+    {
+      "name": "confluence",
+      "source": "./confluence-plugin",
+      "description": "Analyze PDF documents and upload them to Confluence",
+      "version": "1.0.0"
+    }
+  ]
+}

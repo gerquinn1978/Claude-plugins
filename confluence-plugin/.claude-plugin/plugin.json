@@ -1,0 +1,8 @@
+{
+  "name": "confluence",
+  "description": "Analyze PDF documents and upload them to Confluence",
+  "version": "1.0.0",
+  "author": {
+    "name": "gquinn"
+  }
+}
